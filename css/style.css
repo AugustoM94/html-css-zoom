@@ -10,27 +10,28 @@
     --color-primary: #FFFFFF;
 }
 body {
-    background-color: var(--color-back);
+    background-color: var(--color-primary);
     color: var(--color-primary);
     }
 
 .container {
     width: 100%;
-    padding: 50px 50px 0 50px;
     height: calc(100vh - 120px);
+    padding-top: 30px;
 
 }
 .d-flex {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
 }
 .box {
     width: calc(100vw / 7 - 45px);
-    height: calc(100vh / 7);
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 5px;
+    height: calc(100vh / 4);
+x
     
 }
 img {
@@ -38,5 +39,6 @@ img {
     height: 100%;
 }
 footer {
-    height: 70px;
+    height: 120px;
+    width: 100%;
 }
