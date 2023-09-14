@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --color-share:  #4bc800;
+    --color-meeting: #991b0f;
+    --color-primary :#000000;
+    --color-primary: #FFFFFF;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+}
