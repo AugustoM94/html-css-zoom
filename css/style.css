@@ -11,8 +11,7 @@
 }
 body {
     background-color: var(--color-primary);
-    color: var(--color-primary);
-    }
+   }
 
 .container {
     width: 100%;
@@ -43,3 +42,6 @@ footer {
     height: 120px;
     width: 100%;
 }
+/* .fa-solid {
+    color: #000000;
+} */
